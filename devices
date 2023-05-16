@@ -1,0 +1,7 @@
+type,ip_address,login,password ||  huawei,172.16.1.1,user,25rjhjd[jlbkbgjkmle paloalto,172.16.1.200,ainurkh,76BifYtcNhf
+cisco,172.16.1.102,cisco,cisco
+
+{
+'192.168.0.1': [cisco, login, password],
+'10.1.201.55': [huawei, ainur, 1q2w3e]
+}
