@@ -20,6 +20,12 @@ with open('commands.json', 'r') as f:
     commands = json.load(f)
 
 
-#  creating a current folder
+file_reader = open('devices', 'r')
+lines = file_reader.readlines()
+device_info = [line.split(';') for line in lines]
+file_reader.close()
+
+
+print(*device_info)
 curr_date = datetime.now().strftime("%Y-%m-%d_%H.%M.%S")
 os.makedirs(f'results/config_dump_{curr_date}', 0o774)
