@@ -1,0 +1,6 @@
+{
+  "ip_address": ["type", "login", "password"],
+  "172.16.1.102": ["cisco", "cisco", "cisco"],
+  "172.16.1.200": ["paloalto", "ainurkh", "76BifYtcNhf"],
+  "172.16.1.1": ["huawei", "user", "25rjhjd[jlbkbgjkmle"]
+}
