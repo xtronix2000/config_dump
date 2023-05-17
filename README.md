@@ -29,3 +29,5 @@ A simple tool for collecting network device configurations
 
     `python3 main.py`
 8. The result of the program execution will appear in the folder `results/config_dump_YYYY-MM-DD_HH.MM.SS/host address`
+
+P.S. https://github.com/paramiko/paramiko
