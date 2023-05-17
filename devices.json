@@ -1,5 +1,5 @@
 {
   "192.168.0.1": ["cisco", "log", "pass"],
-  "192.168.0.2": ["huawei", xtronix2000", "p@ssw0rd"],
+  "192.168.0.2": ["huawei", "xtronix2000", "p@ssw0rd"],
   "192.168.0.3": ["cisco", "root", "toor"],
 }
