@@ -1,4 +1,5 @@
 # dev_dump
+A simple tool for collecting network device configurations
 
 ## Installation
 
@@ -20,9 +21,11 @@
   
 5. Run `pip install -r requirements.txt`
 
-6. Open the `commands.json` file and add a new dictionary element with the device vendor string as the key and any device command of your choice as the value.
-Open the `devices.json` file and enter the data in your devices in the format `"ip_address": ["type", "login", "password"]`. Pay attention to the `"type"` field, it must be at least one key from the `commands.json` file.
+6. Open the `commands.json` file and add a new dictionary element with the device vendor string as the key and command as the value.
 
-7. Run the main.py script 
-    `python3 maon.py`
-8. The result of the program execution will appear in the folder results/config_dump_YYYY-MM-DD_HH.MM.SS/host address
+7.Open the `devices.json` file and enter the device information in the format `"ip_address": ["type", "login", "password"]`. Pay attention to the `"type"` field, it must be at least one key from the `commands.json` file.
+
+7. Run the main.py script
+
+    `python3 main.py`
+8. The result of the program execution will appear in the folder `results/config_dump_YYYY-MM-DD_HH.MM.SS/host address`
