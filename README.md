@@ -1,4 +1,4 @@
-# dev_dump
+# config_dump
 A simple tool for collecting network device configurations
 
 ## Installation
