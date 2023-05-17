@@ -1,5 +1,4 @@
 {
   "cisco": "show running-configuration",
-  "huawei": "display current configuration",
-  "paloalto": "configure"
+  "huawei": "display current-configuration"
 }
