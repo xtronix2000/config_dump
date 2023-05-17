@@ -6,7 +6,7 @@ from datetime import datetime
 
 def get_config(host, login, password, command):
     client = paramiko.SSHClient()
-    client.set_missing_host_key_policy(paramiko.AutoAddPolicy())  # add server key to .ssh/known_hosts file
+    client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     client.connect(host, port=22, username=login, password=password, timeout=3)
     (stdin, stdout, stderr) = client.exec_command(command)
     config = stdout.read().strip().decode('ASCII')
